@@ -3,14 +3,13 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
-
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_FIREBASE_KEY,
-  authDomain: "tutorial-5a2cf.firebaseapp.com",
-  projectId: "tutorial-5a2cf",
-  storageBucket: "tutorial-5a2cf.appspot.com",
-  messagingSenderId: "585126334212",
-  appId: "1:585126334212:web:8539eafc56885e1b4c4a51"
+  authDomain: "meomeo-7c4b6.firebaseapp.com",
+  projectId: "meomeo-7c4b6",
+  storageBucket: "meomeo-7c4b6.appspot.com",
+  messagingSenderId: "1073028360310",
+  appId: "1:1073028360310:web:67af58b42e43dd16fe5757",
 };
 
 const app = initializeApp(firebaseConfig);
